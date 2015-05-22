@@ -12,9 +12,9 @@ namespace BSBChecker.Controllers
     public class BSBController : ApiController
     {
         // GET api/values
-        public IEnumerable<string> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            return "Almost there, try /BSB/0123";
         }
 
         // GET api/values/5
